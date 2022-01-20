@@ -30,7 +30,7 @@ public class GmailLoginStep {
 	@Given("Enter Username")
 	public void enter_username() {
 //		write ur email address
-		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("uremailaddress");
+		driver.findElement(By.xpath("//*[@id='identifierId']")).sendKeys("suchishah.siem@gmail.com");
 		driver.findElement(By.xpath("//*[@id='identifierNext']/div/button/span")).click();
 	}
 
